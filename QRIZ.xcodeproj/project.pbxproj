@@ -60,6 +60,8 @@
 		E2DD0E862D2146D900DA3D18 /* IncorrectCountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD0E852D2146D900DA3D18 /* IncorrectCountData.swift */; };
 		E2DD0E882D21494700DA3D18 /* ConceptBarGraphHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD0E872D21494700DA3D18 /* ConceptBarGraphHostingController.swift */; };
 		E2DD0E8A2D214E6300DA3D18 /* IncorrectRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD0E892D214E6300DA3D18 /* IncorrectRankView.swift */; };
+		E2ED81B12D377C1800CA51FF /* WrongQuestionSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED81AC2D377C1800CA51FF /* WrongQuestionSegment.swift */; };
+		E2ED81B22D377C1800CA51FF /* WrongQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED81AD2D377C1800CA51FF /* WrongQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,8 @@
 		E2DD0E852D2146D900DA3D18 /* IncorrectCountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncorrectCountData.swift; sourceTree = "<group>"; };
 		E2DD0E872D21494700DA3D18 /* ConceptBarGraphHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptBarGraphHostingController.swift; sourceTree = "<group>"; };
 		E2DD0E892D214E6300DA3D18 /* IncorrectRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncorrectRankView.swift; sourceTree = "<group>"; };
+		E2ED81AC2D377C1800CA51FF /* WrongQuestionSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongQuestionSegment.swift; sourceTree = "<group>"; };
+		E2ED81AD2D377C1800CA51FF /* WrongQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,7 @@
 		54DB0D962D09506C00ABD458 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				E2ED81AE2D377C1800CA51FF /* WrongQuestion */,
 				E29BF86A2D16845B006DC6D0 /* TestUtil */,
 				E23824DF2D0C1FA7009E7989 /* Onboarding */,
 				54DB0D972D0950A500ABD458 /* Home */,
@@ -435,6 +440,15 @@
 			path = TestModel;
 			sourceTree = "<group>";
 		};
+		E2ED81AE2D377C1800CA51FF /* WrongQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED81AC2D377C1800CA51FF /* WrongQuestionSegment.swift */,
+				E2ED81AD2D377C1800CA51FF /* WrongQuestionViewController.swift */,
+			);
+			path = WrongQuestion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -601,6 +615,7 @@
 				E29BF8682D147C10006DC6D0 /* GreetingViewModel.swift in Sources */,
 				E2D70FEA2D0DD455005A3F51 /* PreviewTestViewController.swift in Sources */,
 				54DB0DA12D0951C000ABD458 /* Font+.swift in Sources */,
+				E2ED81B22D377C1800CA51FF /* WrongQuestionViewController.swift in Sources */,
 				E29BF8642D146C79006DC6D0 /* QuestionTitleLabel.swift in Sources */,
 				E239630D2D083B900092B39B /* ViewController.swift in Sources */,
 				E2DD0E882D21494700DA3D18 /* ConceptBarGraphHostingController.swift in Sources */,
@@ -628,6 +643,7 @@
 				E2DD0E802D212A1F00DA3D18 /* PreviewResultTitleLabel.swift in Sources */,
 				E29BF85E2D14692C006DC6D0 /* TestButton.swift in Sources */,
 				E29BF8592D11D37F006DC6D0 /* PreviewTestViewModel.swift in Sources */,
+				E2ED81B12D377C1800CA51FF /* WrongQuestionSegment.swift in Sources */,
 				E25F94CF2D0CB61C00BA765F /* OnboardingImageView.swift in Sources */,
 				E230669A2D2126B9001B509A /* PreviewScoresData.swift in Sources */,
 				E23066962D207165001B509A /* ScoreCircularChartView.swift in Sources */,
