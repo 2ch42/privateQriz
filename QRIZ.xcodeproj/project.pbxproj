@@ -16,6 +16,7 @@
 		E23066962D207165001B509A /* ScoreCircularChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23066952D207165001B509A /* ScoreCircularChartView.swift */; };
 		E23066982D20797A001B509A /* ScoreCircularChartHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23066972D20797A001B509A /* ScoreCircularChartHostingController.swift */; };
 		E230669A2D2126B9001B509A /* PreviewScoresData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23066992D2126B9001B509A /* PreviewScoresData.swift */; };
+		E236EAAD2D379A2C00E8EE8E /* WrongQuestionTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236EAAC2D379A2C00E8EE8E /* WrongQuestionTitleLabel.swift */; };
 		E23824E12D0C3157009E7989 /* BeginOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23824E02D0C3157009E7989 /* BeginOnboardingViewController.swift */; };
 		E23824E32D0C31DE009E7989 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23824E22D0C31DE009E7989 /* TempViewController.swift */; };
 		E23963092D083B900092B39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23963082D083B900092B39B /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 		E25F94CF2D0CB61C00BA765F /* OnboardingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F94CE2D0CB61C00BA765F /* OnboardingImageView.swift */; };
 		E25F94D12D0CB74700BA765F /* OnboardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F94D02D0CB74700BA765F /* OnboardingButton.swift */; };
 		E25F94D32D0CBE3C00BA765F /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F94D22D0CBE3C00BA765F /* GreetingViewController.swift */; };
+		E26EA04C2D37BB3000E9DDFC /* WrongQuestionDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26EA04B2D37BB3000E9DDFC /* WrongQuestionDropDown.swift */; };
 		E28F5BA72D23B5600000539E /* SingleSupplementConceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F5BA62D23B5600000539E /* SingleSupplementConceptView.swift */; };
 		E28F5BA92D2541EB0000539E /* BarGraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F5BA82D2541EB0000539E /* BarGraphsView.swift */; };
 		E28F5BAB2D2545940000539E /* Views+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28F5BAA2D2545940000539E /* Views+Extensions.swift */; };
@@ -98,6 +100,7 @@
 		E23066952D207165001B509A /* ScoreCircularChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCircularChartView.swift; sourceTree = "<group>"; };
 		E23066972D20797A001B509A /* ScoreCircularChartHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCircularChartHostingController.swift; sourceTree = "<group>"; };
 		E23066992D2126B9001B509A /* PreviewScoresData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewScoresData.swift; sourceTree = "<group>"; };
+		E236EAAC2D379A2C00E8EE8E /* WrongQuestionTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongQuestionTitleLabel.swift; sourceTree = "<group>"; };
 		E23824E02D0C3157009E7989 /* BeginOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginOnboardingViewController.swift; sourceTree = "<group>"; };
 		E23824E22D0C31DE009E7989 /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 		E23963052D083B8F0092B39B /* QRIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +123,7 @@
 		E25F94CE2D0CB61C00BA765F /* OnboardingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImageView.swift; sourceTree = "<group>"; };
 		E25F94D02D0CB74700BA765F /* OnboardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButton.swift; sourceTree = "<group>"; };
 		E25F94D22D0CBE3C00BA765F /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		E26EA04B2D37BB3000E9DDFC /* WrongQuestionDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongQuestionDropDown.swift; sourceTree = "<group>"; };
 		E28F5BA62D23B5600000539E /* SingleSupplementConceptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSupplementConceptView.swift; sourceTree = "<group>"; };
 		E28F5BA82D2541EB0000539E /* BarGraphsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphsView.swift; sourceTree = "<group>"; };
 		E28F5BAA2D2545940000539E /* Views+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views+Extensions.swift"; sourceTree = "<group>"; };
@@ -445,6 +449,8 @@
 			children = (
 				E2ED81AC2D377C1800CA51FF /* WrongQuestionSegment.swift */,
 				E2ED81AD2D377C1800CA51FF /* WrongQuestionViewController.swift */,
+				E236EAAC2D379A2C00E8EE8E /* WrongQuestionTitleLabel.swift */,
+				E26EA04B2D37BB3000E9DDFC /* WrongQuestionDropDown.swift */,
 			);
 			path = WrongQuestion;
 			sourceTree = "<group>";
@@ -611,6 +617,7 @@
 			files = (
 				E25F94CB2D0CB1DB00BA765F /* OnboardingTitleLabel.swift in Sources */,
 				E23824E32D0C31DE009E7989 /* TempViewController.swift in Sources */,
+				E236EAAD2D379A2C00E8EE8E /* WrongQuestionTitleLabel.swift in Sources */,
 				E25F94D12D0CB74700BA765F /* OnboardingButton.swift in Sources */,
 				E29BF8682D147C10006DC6D0 /* GreetingViewModel.swift in Sources */,
 				E2D70FEA2D0DD455005A3F51 /* PreviewTestViewController.swift in Sources */,
@@ -620,6 +627,7 @@
 				E239630D2D083B900092B39B /* ViewController.swift in Sources */,
 				E2DD0E882D21494700DA3D18 /* ConceptBarGraphHostingController.swift in Sources */,
 				E29BF8572D11B81E006DC6D0 /* CheckBoxState.swift in Sources */,
+				E26EA04C2D37BB3000E9DDFC /* WrongQuestionDropDown.swift in Sources */,
 				E23824E12D0C3157009E7989 /* BeginOnboardingViewController.swift in Sources */,
 				E23066982D20797A001B509A /* ScoreCircularChartHostingController.swift in Sources */,
 				E2D70FEE2D0EC037005A3F51 /* CheckConceptViewModel.swift in Sources */,
