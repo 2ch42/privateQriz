@@ -57,7 +57,7 @@ final class WrongQuestionSegment: UIView {
     
 }
 
-// MARK: - Autolayout, View settings
+// MARK: - Auto Layout, View settings
 extension WrongQuestionSegment {
     
     private func addViews() {
